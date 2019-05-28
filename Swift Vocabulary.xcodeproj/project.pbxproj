@@ -295,7 +295,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftVocabularyProjectTime/Info.plist;
+				DEVELOPMENT_TEAM = D6VB3396MT;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Vocabulary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +313,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftVocabularyProjectTime/Info.plist;
+				DEVELOPMENT_TEAM = D6VB3396MT;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Vocabulary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
