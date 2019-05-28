@@ -13,7 +13,9 @@ class DefinitionViewController: UIViewController {
 	
 	var vocabWord: VocabularyWord? {
 		didSet {
-			updateViews()
+			if let _ = view {
+				updateViews()
+			}
 		}
 	}
 

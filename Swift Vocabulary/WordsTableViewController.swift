@@ -43,7 +43,6 @@ class WordsTableViewController: UITableViewController {
 				let indexPath = self.tableView.indexPathForSelectedRow?.row {
 				let word = self.vocabController.vocabWords[indexPath]
 				
-				_ = definition.view
 				definition.vocabWord = word
 			}
 		}

@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WordLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otR-9m-8hd">
-                                <rect key="frame" x="20" y="120" width="131" height="30"/>
+                                <rect key="frame" x="20" y="120" width="244" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -75,11 +75,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JvM-De-Rmu" secondAttribute="bottom" constant="337" id="2cb-TC-0U7"/>
-                            <constraint firstItem="otR-9m-8hd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9YH-5w-94i"/>
-                            <constraint firstItem="otR-9m-8hd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="QwX-wk-6eR"/>
-                            <constraint firstItem="otR-9m-8hd" firstAttribute="leading" secondItem="JvM-De-Rmu" secondAttribute="leading" id="WtZ-L3-chD"/>
-                            <constraint firstItem="JvM-De-Rmu" firstAttribute="top" secondItem="otR-9m-8hd" secondAttribute="bottom" constant="21" id="pHn-Zz-5r5"/>
+                            <constraint firstItem="otR-9m-8hd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5bD-u2-B8n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="otR-9m-8hd" secondAttribute="trailing" constant="150" id="jf5-Go-aGU"/>
+                            <constraint firstItem="otR-9m-8hd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="mcQ-rE-JVl"/>
                             <constraint firstItem="JvM-De-Rmu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pj5-lj-Sxo"/>
+                            <constraint firstItem="otR-9m-8hd" firstAttribute="leading" secondItem="JvM-De-Rmu" secondAttribute="leading" id="xrN-x2-Yt6"/>
+                            <constraint firstItem="JvM-De-Rmu" firstAttribute="top" secondItem="otR-9m-8hd" secondAttribute="bottom" constant="21" id="zMc-P6-EPT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
