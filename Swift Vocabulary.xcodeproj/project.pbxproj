@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		376F0DC4229DC02700072B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DC3229DC02700072B4F /* AppDelegate.swift */; };
-		376F0DC6229DC02700072B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DC5229DC02700072B4F /* ViewController.swift */; };
+		376F0DC6229DC02700072B4F /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DC5229DC02700072B4F /* DefinitionViewController.swift */; };
 		376F0DC9229DC02700072B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376F0DC7229DC02700072B4F /* Main.storyboard */; };
 		376F0DCB229DC02700072B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376F0DCA229DC02700072B4F /* Assets.xcassets */; };
 		376F0DCE229DC02700072B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376F0DCC229DC02700072B4F /* LaunchScreen.storyboard */; };
+		376F0DD6229DC12E00072B4F /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DD5229DC12E00072B4F /* WordsTableViewController.swift */; };
+		376F0DD8229DC42D00072B4F /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DD7229DC42D00072B4F /* VocabularyWord.swift */; };
+		376F0DDA229DC57300072B4F /* VocabularyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F0DD9229DC57300072B4F /* VocabularyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		376F0DC0229DC02700072B4F /* SwiftVocabularyProjectTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVocabularyProjectTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376F0DC0229DC02700072B4F /* Swift Vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Vocabulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		376F0DC3229DC02700072B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		376F0DC5229DC02700072B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		376F0DC5229DC02700072B4F /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		376F0DC8229DC02700072B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		376F0DCA229DC02700072B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		376F0DCD229DC02700072B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		376F0DCF229DC02700072B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376F0DD5229DC12E00072B4F /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		376F0DD7229DC42D00072B4F /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
+		376F0DD9229DC57300072B4F /* VocabularyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		376F0DB7229DC02700072B4F = {
 			isa = PBXGroup;
 			children = (
-				376F0DC2229DC02700072B4F /* SwiftVocabularyProjectTime */,
+				376F0DC2229DC02700072B4F /* Swift Vocabulary */,
 				376F0DC1229DC02700072B4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		376F0DC1229DC02700072B4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				376F0DC0229DC02700072B4F /* SwiftVocabularyProjectTime.app */,
+				376F0DC0229DC02700072B4F /* Swift Vocabulary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		376F0DC2229DC02700072B4F /* SwiftVocabularyProjectTime */ = {
+		376F0DC2229DC02700072B4F /* Swift Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
 				376F0DC3229DC02700072B4F /* AppDelegate.swift */,
-				376F0DC5229DC02700072B4F /* ViewController.swift */,
+				376F0DD5229DC12E00072B4F /* WordsTableViewController.swift */,
+				376F0DC5229DC02700072B4F /* DefinitionViewController.swift */,
+				376F0DD7229DC42D00072B4F /* VocabularyWord.swift */,
+				376F0DD9229DC57300072B4F /* VocabularyController.swift */,
 				376F0DC7229DC02700072B4F /* Main.storyboard */,
 				376F0DCA229DC02700072B4F /* Assets.xcassets */,
 				376F0DCC229DC02700072B4F /* LaunchScreen.storyboard */,
 				376F0DCF229DC02700072B4F /* Info.plist */,
 			);
-			path = SwiftVocabularyProjectTime;
+			path = "Swift Vocabulary";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		376F0DBF229DC02700072B4F /* SwiftVocabularyProjectTime */ = {
+		376F0DBF229DC02700072B4F /* Swift Vocabulary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 376F0DD2229DC02700072B4F /* Build configuration list for PBXNativeTarget "SwiftVocabularyProjectTime" */;
+			buildConfigurationList = 376F0DD2229DC02700072B4F /* Build configuration list for PBXNativeTarget "Swift Vocabulary" */;
 			buildPhases = (
 				376F0DBC229DC02700072B4F /* Sources */,
 				376F0DBD229DC02700072B4F /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftVocabularyProjectTime;
+			name = "Swift Vocabulary";
 			productName = SwiftVocabularyProjectTime;
-			productReference = 376F0DC0229DC02700072B4F /* SwiftVocabularyProjectTime.app */;
+			productReference = 376F0DC0229DC02700072B4F /* Swift Vocabulary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 376F0DBB229DC02700072B4F /* Build configuration list for PBXProject "SwiftVocabularyProjectTime" */;
+			buildConfigurationList = 376F0DBB229DC02700072B4F /* Build configuration list for PBXProject "Swift Vocabulary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				376F0DBF229DC02700072B4F /* SwiftVocabularyProjectTime */,
+				376F0DBF229DC02700072B4F /* Swift Vocabulary */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376F0DC6229DC02700072B4F /* ViewController.swift in Sources */,
+				376F0DC6229DC02700072B4F /* DefinitionViewController.swift in Sources */,
+				376F0DDA229DC57300072B4F /* VocabularyController.swift in Sources */,
 				376F0DC4229DC02700072B4F /* AppDelegate.swift in Sources */,
+				376F0DD6229DC12E00072B4F /* WordsTableViewController.swift in Sources */,
+				376F0DD8229DC42D00072B4F /* VocabularyWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		376F0DBB229DC02700072B4F /* Build configuration list for PBXProject "SwiftVocabularyProjectTime" */ = {
+		376F0DBB229DC02700072B4F /* Build configuration list for PBXProject "Swift Vocabulary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				376F0DD0229DC02700072B4F /* Debug */,
@@ -324,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		376F0DD2229DC02700072B4F /* Build configuration list for PBXNativeTarget "SwiftVocabularyProjectTime" */ = {
+		376F0DD2229DC02700072B4F /* Build configuration list for PBXNativeTarget "Swift Vocabulary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				376F0DD3229DC02700072B4F /* Debug */,
