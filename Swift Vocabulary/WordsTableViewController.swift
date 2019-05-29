@@ -12,7 +12,6 @@ class WordsTableViewController: UITableViewController {
 
 	let vocabController = VocabularyController()
 	
-	
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -20,7 +19,6 @@ class WordsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return vocabController.vocabWords.count
     }
 	
@@ -32,11 +30,8 @@ class WordsTableViewController: UITableViewController {
         return cell
     }
 
-
-	
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+	
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "ShowDefinition" {
 			if let definitionVC = segue.destination as? DefinitionViewController,

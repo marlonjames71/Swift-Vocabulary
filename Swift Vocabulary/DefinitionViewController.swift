@@ -34,8 +34,5 @@ class DefinitionViewController: UIViewController {
 			definitionTextView.text = unwrappedVocabWord.definition
 		}
 	}
-	
-	
-
 }
 
