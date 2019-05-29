@@ -39,11 +39,11 @@ class WordsTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "ShowDefinition" {
-			if let definition = segue.destination as? DefinitionViewController,
+			if let definitionVC = segue.destination as? DefinitionViewController,
 				let indexPath = self.tableView.indexPathForSelectedRow?.row {
-				let word = self.vocabController.vocabWords[indexPath]
+				let word = vocabController.vocabWords[indexPath]
 				
-				definition.vocabWord = word
+				definitionVC.vocabWord = word
 			}
 		}
     }
